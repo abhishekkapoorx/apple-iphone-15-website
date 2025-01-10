@@ -4,7 +4,7 @@ import { useGLTF, useTexture } from '@react-three/drei'
 import * as THREE from 'three'
 
 function IPhone(props) {
-  const { nodes, materials } = useGLTF('./apple-iphone-15-website/models/scene.glb')
+  const { nodes, materials } = useGLTF('./models/scene.glb')
 
   const texture = useTexture(props.item.img);
 
